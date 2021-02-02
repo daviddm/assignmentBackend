@@ -1,0 +1,22 @@
+{
+  "name": "daviddm",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:daviddm/assignmentBackend.git",
+  "author": "David de Meijere <david.de.meijere@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "express": "^4.17.1",
+    "express-request-logger": "^0.0.3",
+    "node-fetch": "^2.6.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
